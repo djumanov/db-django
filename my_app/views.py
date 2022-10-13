@@ -41,7 +41,7 @@ def add_product(request: HttpRequest):
         product.company = data['company']
         product.color   = data['color']
         product.ram     = data['ram']
-        product.memor   = data['memory']
+        product.memory   = data['memory']
         product.price   = data['price']
         product.img_url = data['img_url']
 
